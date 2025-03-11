@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Your Luxury Candle Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="Your Candle Co. Logo" class="logo">
+                <h1>Your Candle Co.</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="products" class="container">
+        <div class="product">
+            <img src="assets/images/candle1.jpg" alt="Candle 1">
+            <h2>Sandalwood Serenity</h2>
+            <p class="price">₹35.00</p>
+            <button class="add-to-cart" data-name="Sandalwood Serenity" data-price="35.00">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/images/candle2.jpg" alt="Candle 2">
+            <h2>Lavender Luxe</h2>
+            <p class="price">₹40.00</p>
+            <button class="add-to-cart" data-name="Lavender Luxe" data-price="40.00">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="assets/images/candle3.jpg" alt="candle 3">
+            <h2>Citrus Burst</h2>
+            <p class="price">₹45.00</p>
+            <button class="add-to-cart" data-name="Citrus Burst" data-price="45.00">Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="cart" class="container">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: ₹0.00</p>
+        <button id="checkout">Checkout via WhatsApp</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Candle Co.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
