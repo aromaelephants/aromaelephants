@@ -480,3 +480,88 @@ nav a {
     margin-bottom: 5px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    /* Product Details */
+    .product-details {
+        flex-direction: column;
+    }
+
+    .product-images {
+        flex-direction: column;
+    }
+
+    .thumbnail-images {
+        flex-direction: row; /* Display thumbnails horizontally */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        overflow-y: hidden; /* Disable vertical scrolling */
+        max-height: 100px; /* Adjust as needed */
+        white-space: nowrap; /* Prevent thumbnails from wrapping */
+    }
+
+    .thumbnail-images img {
+        margin: 0 5px;
+        max-width: 60px; /* Adjust thumbnail size */
+    }
+
+    .product-info {
+        width: 100%;
+    }
+
+    /* Shop Page */
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr); /* Single column on small screens */
+    }
+
+    /* Cart Page */
+    .cart-items {
+        flex-direction: column;
+    }
+
+    /* Shipping/Payment container */
+    .shipping-payment-container {
+        flex-direction: column;
+    }
+
+    /* ... (add more mobile-specific styles as needed) ... */
+}
