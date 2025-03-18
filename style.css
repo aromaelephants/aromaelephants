@@ -606,3 +606,67 @@ nav a {
     }
 
 }
+
+
+
+
+
+.hamburger-menu {
+    display: none; /* Hidden by default */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+    header {
+        position: relative; /* Needed for absolute positioning of hamburger */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show on mobile */
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .nav-menu {
+        display: none; /* Hide navigation by default */
+        flex-direction: column;
+        width: 100%;
+        background-color: #f0f0f0; /* Or your preferred background */
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        z-index: 10; /* Ensure it's above other elements */
+    }
+
+    .nav-menu.active {
+        display: flex; /* Show navigation when active class is present */
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-menu ul li {
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #ccc; /* Optional: add dividers */
+    }
+
+    .nav-menu ul li a {
+        display: block;
+    }
+}
