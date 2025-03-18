@@ -500,6 +500,8 @@ nav a {
 
 
 
+/* ... (your existing CSS) ... */
+
 /* Mobile-Specific Styles */
 @media (max-width: 768px) {
     /* Header */
@@ -563,5 +565,44 @@ nav a {
         flex-direction: column;
     }
 
-    /* ... (add more mobile-specific styles as needed) ... */
+    /* Image Scaling for Shop Page */
+    .product-grid img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Text Wrapping for Shop Page Product Titles */
+    .product-grid h3 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em; /* Adjust font size if needed */
+    }
+
+    /* Padding for Shop Page Product Items */
+    .product-grid .product-item {
+        padding: 10px;
+    }
+
+    /* Adjust product image size in product detail page */
+    .main-image img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Adjust font size of price in product detail page */
+    .product-info .price{
+        font-size: 1.2em;
+    }
+
+    /* Adjust font size of title in product detail page */
+    .product-info h1{
+        font-size: 1.5em;
+    }
+
+    /* Adjust font size of description in product detail page */
+    .product-info .description{
+        font-size: 1em;
+    }
+
 }
