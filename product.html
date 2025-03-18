@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Aroma Elephants</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Aroma Elephants Logo">
+            <h1>Aroma Elephants</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a>Shop</a>
+                    <div class="dropdown-content">
+                        <a href="shop.html?category=christmas">Christmas Collection</a>
+                        <a href="shop.html?category=valentine">Valentine Collection</a>
+                        <a href="shop.html?category=bouquet">Bouquet</a>
+                        <a href="shop.html?category=glassjar">Glass Jar</a>
+                        <a href="shop.html?category=container">Container Candles</a>
+                        <a href="shop.html?category=terracotta">Terracotta</a>
+                        <a href="shop.html?category=pillar">Pillar Candles</a>
+                        <a href="shop.html?category=laddu">Laddu Candles</a>
+                    </div>
+                </li>
+                <li><a href="customization.html">Customization</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="cart-icon"><a href="cart.html">🛒 <span id="cart-item-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-details">
+        <div class="product-images">
+            <div class="main-image">
+                <img id="main-product-image" src="assets/product1-1.jpg" alt="Product Image 1">
+            </div>
+            <div class="thumbnail-images">
+                <img src="assets/product1-1.jpg" alt="Product Image 1">
+                <img src="assets/product1-2.jpg" alt="Product Image 2">
+                <img src="assets/product1-3.jpg" alt="Product Image 3">
+            </div>
+        </div>
+        <div class="product-info">
+            <h1>Product Name</h1>
+            <p class="price">$XX.XX</p>
+            <p class="description">Product description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="product-details-info">
+                <h3>Product Information</h3>
+                <ul id="product-info-list">
+                </ul>
+            </div>
+
+            <div class="fragrance-options">
+                <h3>Fragrance Options:</h3>
+                <select id="fragrance-select">
+                    <option value="lavender">Lavender</option>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="rose">Rose</option>
+                </select>
+            </div>
+
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

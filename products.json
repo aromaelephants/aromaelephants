@@ -1,0 +1,481 @@
+[
+  {
+    "id": 1,
+    "name": "Christmas Hamper",
+    "category": "christmas",
+    "price": "₹999.00",
+    "image": "assets/products-img/Christmas/1.png",
+    "images": ["assets/products-img/Christmas/2.png", "assets/products-img/Christmas/3.png", "assets/products-img/Christmas/4.png", "assets/products-img/Christmas/5.png", "assets/products-img/Christmas/6.png", "assets/products-img/Christmas/7.png", "assets/products-img/Christmas/8.png"],
+    "description": "Embrace the spirit of Christmas with our thoughtfully assembled Hamper. Featuring a variety of our handcrafted candles, each scent is designed to evoke the warmth and comfort of the holiday season. Perfect for gifting to loved ones or adding a festive touch to your own home during this special festival",
+    "fragrances": ["Standard", "User"],
+    "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+    "fragranceSkus": {
+        "Standard": "AE-XMS-15H001S",
+        "User": "AE-XMS15H001U"
+    } 
+  },
+
+  {
+    "id": 2,
+    "name": "XMAS - Snow Ball",
+    "category": "christmas",
+    "price": "₹210.00",
+    "image": "assets/products-img/Christmas/1.png",
+    "images": ["assets/products-img/Christmas/", "assets/products-img/Christmas/"],
+    "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+    "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+    "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },    
+    "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+  },
+
+  {
+    "id": 3,
+    "name": "XMAS - Snow Flakes",
+    "category": "christmas",
+    "price": "₹348.00",
+    "image": "assets/products-img/Christmas/",
+    "images": ["assets/products-img/Christmas/", "assets/products-img/Christmas/"],
+    "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+    "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+    "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+    "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+  },
+
+  {
+    "id": 4,
+    "name": "XMAS - Floating Candle(pack of 12)",
+    "category": "christmas",
+    "price": "₹210.00",
+    "image": "assets/products-img/Christmas/",
+    "images": ["assets/products-img/Christmas/", "assets/products-img/Christmas/"],
+    "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+    "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+    "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+    "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+  },
+
+  {
+    "id": 5,
+    "name": "XMAS - Tree",
+    "category": "christmas",
+    "price": "₹348.00",
+    "image": "assets/products-img/Christmas/",
+    "images": ["assets/products-img/Christmas/", "assets/products-img/Christmas/"],
+    "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+    "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+    "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+    "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+  },
+  
+    
+      
+    {
+      "id": 21,
+      "name": "Valentine's Hamper",
+      "category": "valentine",
+      "price": "₹1499.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Standard", "User"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Standard": "AE-VAL-15H0011",
+        "User": "AE-VAL-15H0012"
+      } 
+    },
+
+    {
+      "id": 21,
+      "name": "Valentine's Heart Candle",
+      "category": "valentine",
+      "price": "₹22.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"  
+      }
+    },
+
+    {
+      "id": 21,
+      "name": "Valentine's Message Candle",
+      "category": "valentine",
+      "price": "₹22.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023" 
+      }
+    },
+
+    {
+      "id": 21,
+      "name": "Valentine's Beacon Candle",
+      "category": "valentine",
+      "price": "₹22.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023" 
+      }
+    },
+
+    {
+      "id": 21,
+      "name": "Valentine's Teddy Bear Candle",
+      "category": "valentine",
+      "price": "₹22.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"  
+      }
+    },
+
+    {
+      "id": 21,
+      "name": "Valentine's Couple Candle",
+      "category": "valentine",
+      "price": "₹22.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"  
+      }
+    },
+
+    {
+      "id": 21,
+      "name": "Valentine's Rose Candle",
+      "category": "valentine",
+      "price": "₹22.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"  
+      }
+    },
+
+    {
+      "id": 21,
+      "name": "Valentine's Floating Candle (pack of 8)",
+      "category": "valentine",
+      "price": "₹22.00",
+      "image": "assets/valentine-rose.jpg",
+      "images": ["assets/valentine-rose.jpg", "assets/valentine-rose-2.jpg"],
+      "description": "A romantic rose-scented candle to set the mood for Valentine's Day.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"  
+      }
+    },
+
+      {
+      "id": 31,
+      "name": "Bouquet Candle",
+      "category": "bouquet",
+      "price": "₹30.00",
+      "image": "assets/bouquet-candle.jpg",
+      "images": ["assets/bouquet-candle.jpg", "assets/bouquet-candle-2.jpg"],
+      "description": "A beautiful candle with a blend of floral scents, like a fresh bouquet.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+      }
+    },
+
+      {
+      "id": 41,
+      "name": "Glass Jar Candle",
+      "category": "glassjar",
+      "price": "₹18.00",
+      "image": "assets/glass-jar-candle.jpg",
+      "images": ["assets/glass-jar-candle.jpg", "assets/glass-jar-candle-2.jpg"],
+      "description": "A simple and elegant candle in a clear glass jar, available in various scents.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+    },
+      {
+      "id": 51,
+      "name": "Container Candle",
+      "category": "container",
+      "price": "₹20.00",
+      "image": "assets/container-candle.jpg",
+      "images": ["assets/container-candle.jpg", "assets/container-candle-2.jpg"],
+      "description": "A modern container candle with a long-lasting burn and rich fragrance.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+    },
+      {
+      "id": 61,
+      "name": "Terracotta Candle",
+      "category": "terracotta",
+      "price": "₹28.00",
+      "image": "assets/terracotta-candle.jpg",
+      "images": ["assets/terracotta-candle.jpg", "assets/terracotta-candle-2.jpg"],
+      "description": "A rustic terracotta candle with natural earthy scents.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+    },
+      {
+      "id": 71,
+      "name": "Pillar Candle",
+      "category": "pillar",
+      "price": "₹15.00",
+      "image": "assets/pillar-candle.jpg",
+      "images": ["assets/pillar-candle.jpg", "assets/pillar-candle-2.jpg"],
+      "description": "A classic pillar candle, perfect for creating ambiance.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+    },
+      {
+      "id": 81,
+      "name": "Laddu Candle",
+      "category": "laddu",
+      "price": "₹23.00",
+      "image": "assets/laddu-candle.jpg",
+      "images": ["assets/laddu-candle.jpg", "assets/laddu-candle-2.jpg"],
+      "description": "A unique Laddu shaped candle, with a sweet and warm fragrance.",
+      "fragrances": ["Orange", "Lemon", "Lemongrass", "Pineapple Cake", "Strawberry Cake", "Jasmine", "Lavender", "Coffee"],
+      "productInformation": {
+      "Weight": "1.5 kg",
+      "Dimensions": "20cm x 20cm x 10cm",
+      "Materials": "Natural wax, Fragrance oils"
+    },
+      "fragranceSkus": {
+        "Orange": "AE-XMS15I0021",
+        "Lemon": "AE-XMS15I0022",
+        "LemonGrass": "AE-XMS15I0023",
+        "Pineapple Cake": "AE-XMS15I0023",
+        "Strawberry Cake": "AE-XMS15I0023",
+        "Jasmine": "AE-XMS15I0023",
+        "Lavender": "AE-XMS15I0023",
+        "Coffee":"AE-XMS15I0023"
+    }
+    }
+  ]
