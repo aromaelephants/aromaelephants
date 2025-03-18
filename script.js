@@ -19,6 +19,15 @@ function addToCart(product, selectedFragrance) {
     }
 */
 
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburgerMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+});
+
 function addToCart(product, selectedFragrance) {
     const cartItem = {
         productId: product.id,
