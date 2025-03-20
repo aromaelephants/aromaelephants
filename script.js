@@ -182,11 +182,17 @@ function generateBillMessage(customerName, invoiceNumber) {
   return billMessage;
 }
 
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
 const upiPaymentButton = document.getElementById('upiPaymentButton');
 
 upiPaymentButton.addEventListener('click', () => {
   const payeeUPI = 'aromaelephants@upi'; // Replace with your UPI ID
-  const payeeName = 'Aroma Elephants'; // Replace with your store name
+  const payeeName = 'aroma elephants'; // Replace with your store name
   const amount = parseFloat(totalAmountDisplay.textContent); // Get total amount
 
   if (isNaN(amount) || amount <= 0) {
