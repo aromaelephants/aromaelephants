@@ -6,7 +6,7 @@ body {
   video {
     width: 600px; /* Adjust as needed */
     height: 400px; /* Adjust as needed */
-    display: block; /* Ensures it takes full width */
+    
     margin-bottom: 20px; /* Add space below video */
   }
   
@@ -19,5 +19,5 @@ body {
   }
   
   .product-item button {
-    margin-left: 50px;
+    margin-left: 10px;
   }
