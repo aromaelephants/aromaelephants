@@ -5,9 +5,9 @@ body {
   
   video {
     width: 600px; /* Adjust as needed */
-    height: 400px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
     
-    margin-bottom: 20px; /* Add space below video */
+    margin-bottom: 0px; /* Add space below video */
   }
   
 
