@@ -185,8 +185,8 @@ function generateBillMessage(customerName, invoiceNumber) {
 const upiPaymentButton = document.getElementById('upiPaymentButton');
 
 upiPaymentButton.addEventListener('click', () => {
-  const payeeUPI = 'your_upi_id@upi'; // Replace with your UPI ID
-  const payeeName = 'Your Store Name'; // Replace with your store name
+  const payeeUPI = 'aromaelephants@upi'; // Replace with your UPI ID
+  const payeeName = 'Aroma Elephants'; // Replace with your store name
   const amount = parseFloat(totalAmountDisplay.textContent); // Get total amount
 
   if (isNaN(amount) || amount <= 0) {
