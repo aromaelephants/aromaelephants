@@ -4,13 +4,14 @@ body {
   }
   
   video {
-    width: 600px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    
-    margin-bottom: 0px; /* Add space below video */
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-bottom: 20px;
   }
   
-
+  #scan-results {
+  }
   
   .product-item {
     display: flex;
@@ -20,4 +21,18 @@ body {
   
   .product-item button {
     margin-left: 10px;
+  }
+  
+  .product-item button[onclick^="reduceQuantity"] { /* targeting only reduce quantity buttons */
+    width: 80px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    padding: 5px; /* Adjust padding as needed */
+  }
+
+  .product-item button[onclick^="removeProduct"] { /* targeting only reduce quantity buttons */
+    width: 80px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    padding: 5px; /* Adjust padding as needed */
   }
