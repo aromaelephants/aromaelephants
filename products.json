@@ -1,17 +1,55 @@
 [
     {
-      "qrCode": "PRODUCT123",
-      "name": "Laptop",
-      "price": 1200.00
+      "qrCode": "AE-terracotta-matka-2303",
+      "name": "Terracotta(matka)",
+      "price": 195.00
     },
+
     {
-      "qrCode": "PRODUCT456",
-      "name": "Mouse",
-      "price": 25.00
+      "qrCode": "AE-terracotta-bowl(3-wick)-2303",
+      "name": "Terracotta(bowl 3-wick)",
+      "price": 195.00
     },
-      {
-      "qrCode": "PRODUCT789",
-      "name": "Keyboard",
-      "price": 50.00
+
+    {
+      "qrCode": "AE-rose-Cream-2303",
+      "name": "Rose(cream)",
+      "price": 49.00
+    },
+
+    {
+      "qrCode": "AE-valentine-message-2303",
+      "name": "Valentine(massage)",
+      "price": 599.00
+    },
+    
+    {
+      "qrCode": "AE-valentine-rose-2303",
+      "name": "Valentine(Rose Red)",
+      "price": 195.00
+    },
+
+    {
+      "qrCode": "AE-valentine-beacon-2303",
+      "name": "Valentine(Beacon Red)",
+      "price": 195.00
+    },
+
+    {
+      "qrCode": "AE-valentine-teddy-2303",
+      "name": "Valentine(teddy)",
+      "price": 195.00
+    },
+
+    {
+      "qrCode": "AE-christmas-tree-2303",
+      "name": "Christmas tree",
+      "price": 195.00
+    },
+
+    {
+      "qrCode": "AE-glassjar-200g-2303",
+      "name": "Glass Jar (200g)",
+      "price": 195.00
     }
   ]
