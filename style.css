@@ -3,19 +3,14 @@ body {
     padding: 20px;
   }
   
-  .main-container {
-    display: flex; /* Make it a flex container */
-  }
-  
   video {
     width: 400px; /* Adjust as needed */
     height: 300px; /* Adjust as needed */
-    margin-right: 20px; /* Add space between video and results */
+    display: block; /* Ensures it takes full width */
+    margin-bottom: 20px; /* Add space below video */
   }
   
-  #scan-results {
-    flex: 1; /* Allow scan-results to take remaining space */
-  }
+
   
   .product-item {
     display: flex;
