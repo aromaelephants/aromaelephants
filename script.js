@@ -181,3 +181,21 @@ function generateBillMessage(customerName, invoiceNumber) {
   billMessage += `\nTotal: ₹${totalAmountDisplay.textContent}`;
   return billMessage;
 }
+
+const upiPaymentButton = document.getElementById('upiPaymentButton');
+
+upiPaymentButton.addEventListener('click', () => {
+  const payeeUPI = 'your_upi_id@upi'; // Replace with your UPI ID
+  const payeeName = 'Your Store Name'; // Replace with your store name
+  const amount = parseFloat(totalAmountDisplay.textContent); // Get total amount
+
+  if (isNaN(amount) || amount <= 0) {
+    alert('Invalid amount.');
+    return;
+  }
+
+  const upiLink = `upi://pay?pa=${payeeUPI}&pn=${payeeName}&am=${amount.toFixed(2)}&cu=INR`;
+
+  // Open the UPI link
+  window.location.href = upiLink;
+});
