@@ -5,7 +5,7 @@ body {
   
   video {
     width: 400px; /* Adjust as needed */
-    height: 300px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
     display: block; /* Ensures it takes full width */
     margin-bottom: 20px; /* Add space below video */
   }
