@@ -87,6 +87,7 @@ function updateDisplay() {
             <span>${product.name} - ₹${product.price.toFixed(2)} x ${product.quantity}</span>
             <div>
                 <button onclick="reduceQuantity('${product.qrCode}')">-</button>
+                <button onclick="increaseQuantity('${product.qrCode}')">+</button>
                 <button onclick="removeProduct('${product.qrCode}')">Remove</button>
             </div>
         `;
@@ -101,6 +102,13 @@ function reduceQuantity(qrCode) {
     const product = scannedProducts.find(p => p.qrCode === qrCode);
     if (product && product.quantity > 1) {
         product.quantity--;
+        updateDisplay();
+    }
+}
+function increaseQuantity(qrCode) {
+    const product = scannedProducts.find(p => p.qrCode === qrCode);
+    if (product) {
+        product.quantity++;
         updateDisplay();
     }
 }
@@ -151,7 +159,7 @@ generateBillButton.addEventListener('click', () => {
 
     const invoiceNumber = generateInvoiceNumber();
     const billMessage = generateBillMessage(customerName, invoiceNumber);
-    const whatsappLink = `https://wa.me/${customerNumber}?text=${encodeURI(billMessage)}`;
+    const whatsappLink = `https://wa.me/+91${customerNumber}?text=${encodeURI(billMessage)}`;
     window.open(whatsappLink, '_blank');
 
     customerNameInput.value = '';
@@ -178,7 +186,7 @@ function generateBillMessage(customerName, invoiceNumber) {
     });
     billMessage += `\nTotal: ₹${totalAmountDisplay.textContent}`;
 
-    billMessage += `\n\nThank you for shopping with Aroma Elephants`;
-  billMessage += "\nHappy Lighting :)";
+    billMessage += `\n\nThank you for shopping with Mistress Of Spices`;
+  //billMessage += "\nHappy Lighting :)";
     return billMessage;
 }
